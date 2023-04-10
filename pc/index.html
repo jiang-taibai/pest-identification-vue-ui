@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    #iframeBox {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #title {
+      text-align: center;
+      color: #969799;
+      margin-bottom: 20px;
+    }
+
+    #iframe {
+      height: 800px;
+      width: 390px;
+      border: 1px solid #d7d8d9;
+
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+  </style>
+  <title></title>
+</head>
+
+<body>
+
+<div id="iframeBox">
+  <div id="title">
+    <span>检测到您正在使用非移动端设备，已切换至PC模式浏览</span><br/>
+    <span>可使用"浏览器移动设备仿真"或使用移动端设备浏览</span><br/>
+    <span>移动端模式：<a href="http://taibai.cloud/pestIdentification/mobile-device/">http://taibai.cloud/pestIdentification/mobile-device/</a></span>
+  </div>
+  <iframe id="iframe" src="http://taibai.cloud/pestIdentification/mobile-device/"></iframe>
+</div>
+
+</body>
+</html>
